@@ -27,5 +27,5 @@ This playbook will install prometheus node exporter in the given hosts or group 
      - ansible_user: root or any other user you want to
      - node_exporter_version: 0.15.2 (used in the yml file)
      
-  - Put the hosts group you want to
-     - hosts: prd|dev|
+  - **Put the hosts group you want to in the yml file**
+     - hosts: prd | dev | stg | anygroup
