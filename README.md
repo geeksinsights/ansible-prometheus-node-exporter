@@ -7,11 +7,13 @@ This playbook will install prometheus node exporter in the given hosts or group 
    - **Group the hosts as like below**
    
      [dev]
+     
      devserver1.localdomain
      
      devserver2.localdomain
      
      [prod]
+     
      devserver1.localdomain
      
      devserver2.localdomain
